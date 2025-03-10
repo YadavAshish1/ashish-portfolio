@@ -176,7 +176,7 @@ function App() {
               className="text-xl font-bold bg-gradient-to-r from-indigo-400 to-rose-400 text-transparent bg-clip-text cursor-pointer"
               onClick={() => scrollToSection('hero')}
             >
-             A. Portfolio
+             A. Developer
             </motion.div>
 
             <div className="hidden md:flex items-center space-x-8">
@@ -650,7 +650,7 @@ const projects = [
   {
     title: "Task Management App",
     description: "Collaborative task management platform with real-time updates",
-    image: "./public/teeam.png",
+    image: "https://raw.githubusercontent.com/YadavAshish1/ashish-portfolio/main/public/teeam.png",
     category: "Full Stack",
     icon: Terminal,
     technologies: ["Next", "Express", "PostgreSQL", "Git lab", "CI/CD", "vercel"],
@@ -659,7 +659,7 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "Responsive portfolio website with modern animations and clean design",
-    image: "./public/portfolio.png",
+    image: "https://raw.githubusercontent.com/YadavAshish1/ashish-portfolio/main/public/portfolio.png",
     category: "Web Design",
     icon: Layout,
     technologies: ["React", "Typescript","Vite" ,"Tailwind CSS", "Framer Motion"],
@@ -668,7 +668,7 @@ const projects = [
   {
     title: "CrimeCracker Website",
     description: "User-friendly platform for reporting suspected crimes",
-    image: "./public/cs.png",
+    image: "https://raw.githubusercontent.com/YadavAshish1/ashish-portfolio/main/public/cs.png",
     category: "Web Design",
     icon: Palette,
     technologies: ["HTML", "CSS", "Javascript"],
@@ -677,7 +677,7 @@ const projects = [
   {
     title: "Npm Package",
     description: "A lightweight and easy-to-use npm package for tracking user activity and location on a website",
-    image: "./public/npm.png",
+    image: "https://raw.githubusercontent.com/YadavAshish1/ashish-portfolio/main/public/npm.png",
     category: "Package",
     icon: Code,
     technologies: ["Javascript", "npm"],
